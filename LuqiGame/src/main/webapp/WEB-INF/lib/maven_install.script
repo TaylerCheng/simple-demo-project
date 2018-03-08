@@ -1,0 +1,5 @@
+mvn install:install-file -Dfile=./weixinapi.jar -DgroupId=org.marker.weixin -DartifactId=weixin -Dversion=0.1.0 -Dpackaging=jar
+mvn install:install-file -Dfile=./sun.misc.BASE64Decoder.jar -DgroupId=sun.misc -DartifactId=BASE64Decoder -Dversion=0.1.0 -Dpackaging=jar
+mvn install:install-file -Dfile=./QRCode.jar -DgroupId=jp.sourceforge.qrcode -DartifactId=qrcode -Dversion=0.1.0 -Dpackaging=jar
+mvn install:install-file -Dfile=./json-lib-2.4-jdk15.jar -DgroupId=net.sf.json-lib -DartifactId=json-lib -Dversion=2.4 -Dpackaging=jar
+
